@@ -23,7 +23,7 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <div className="w-[133px] h-[133px] lg:w-[573px] lg:h-[573px] border-dashed border-gray-500 rounded-md flex items-center justify-center">
+        <div className="w-[300px] h-[300px] lg:w-[573px] lg:h-[573px] border-dashed border-gray-500 rounded-md flex items-center justify-center">
           <Image
             src="/img/HERO SECTION IMAGE.webp"
             width={573}

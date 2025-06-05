@@ -5,7 +5,10 @@ import { data } from "@/data/fc";
 export default function GamesFC() {
   return (
     <>
-      <section className="bg-[url(/img/hero-provider/FCBG.webp)] bg-cover bg-no-repeat">
+      <section
+        id="fc-games"
+        className="bg-[url(/img/hero-provider/FCBG.webp)] bg-cover bg-no-repeat"
+      >
         <div className="max-w-[1350px] mx-auto py-5 px-4">
           <div className="mb-2 lg:mb-5">
             <Image

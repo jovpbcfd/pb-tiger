@@ -5,7 +5,10 @@ import { data } from "@/data/jili";
 export default function GamesJili() {
   return (
     <>
-      <section className="bg-[url(/img/hero-provider/JILIBG.webp)] bg-cover bg-no-repeat">
+      <section
+        id="jili-games"
+        className="bg-[url(/img/hero-provider/JILIBG.webp)] bg-cover bg-no-repeat"
+      >
         <div className="max-w-[1350px] mx-auto py-5 px-4">
           <div className="mb-2 lg:mb-5">
             <Image
