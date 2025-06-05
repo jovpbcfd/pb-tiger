@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import RankingTable from "./ranking-table";
 import VisualizeChart from "./visualize-chart";
 import Conquer from "./conquer";
