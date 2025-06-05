@@ -5,16 +5,21 @@ import VisualizeChart from "./visualize-chart";
 export default function Visualization() {
   return (
     <div className="bg-[url(/img/BG-2.webp)] bg-no-repeat bg-cover w-full">
-      <section className="py-12 lg:py-20">
-        <div className="max-w-[1350px] mx-auto relative p-4">
-          <div className="bg-[url(/img/TITLE.webp)] bg-center bg-no-repeat bg-contain left-0 right-0 mx-auto w-[322px] h-[61px] absolute -top-5 lg:-top-20 lg:w-full lg:h-[200px]"></div>
+      <section className="pb-12 pt-16 lg:pb-20 lg:pt-42">
+        <div className="max-w-[1350px] mx-auto relative p-1">
+          <div className="bg-[url(/img/TITLE.webp)] bg-center bg-no-repeat bg-contain left-0 right-0 mx-auto w-[322px] h-[61px] absolute -top-10 lg:-top-30 lg:w-full lg:h-[200px]"></div>
           <RankingTable />
         </div>
       </section>
       <section className="pb-12 lg:pb-20">
         <div className="bg-[url(/img/TITLE.webp)] mx-auto bg-center bg-no-repeat bg-contain  w-[322px] h-[61px] lg:w-full lg:h-[200px]"></div>
         <div className="p-4">
-          <div className="max-w-[1350px] mx-auto [background-image:linear-gradient(to_right,#D8A42E_0%,#9A490E_50%,#F7D341_75%,#FFF4C8_88%,#FFCE4B_94%,#F9B34F_97%,#D58C22_100%)] p-1">
+          <div
+            className="max-w-[1350px] mx-auto 
+            [background-image:linear-gradient(to_right,#D8A42E_0%,#9A490E_50%,#F7D341_75%,#FFF4C8_88%,#FFCE4B_94%,#F9B34F_97%,#D58C22_100%)] p-1
+          lg:p-3 rounded-lg
+          "
+          >
             <VisualizeChart />
           </div>
         </div>

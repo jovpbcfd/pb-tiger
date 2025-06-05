@@ -7,13 +7,13 @@ export default function Games({ data }: { data: GamesType[] }) {
       {data.map((item, index) => (
         <div
           key={index}
-          className="flex flex-col items-center mb-5 lg:flex-row"
+          className="flex flex-col items-center mb-5 lg:gap-x-10 lg:flex-row"
         >
           <div className="flex items-center justify-center h-full w-[300px] mb-2">
             <Image src={item.img} height={300} width={300} alt={item.title} />
           </div>
           <div>
-            <h3 className="text-[#FFE207] text-center mb-2 font-bold text-3xl text-uppercase">
+            <h3 className="text-[#FFE207] text-center mb-2 font-bold text-3xl text-uppercase lg:text-left lg:text-[38px]">
               {item.title}
             </h3>
             <p className="text-white mb-3 text-center text-justify">
