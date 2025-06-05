@@ -10,7 +10,7 @@ const partners = [
   "/img/footer/provider-awcmsexy.png",
   "/img/footer/provider-awcmyesbingo.png",
   "/img/footer/provider-awcmyl.png",
-  "/img/footer/provider-cq9.png",
+  "/img/footer/provider-ugv3.png",
   "/img/footer/partner9.png",
   "/img/footer/provider-cq9.png",
   "/img/footer/provider-evo.png",
@@ -25,47 +25,48 @@ const partners = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#151e6c] text-white px-6 md:px-16 py-10 text-sm">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between gap-8 mb-6">
-          {/* Left Section */}
-          <div className="space-y-2">
-            <Image
-              src="/img/PANALOBET-LOGO.webp"
-              alt="Panalobet Logo"
-              width={160}
-              height={40}
-            />
-            <p className="font-semibold text-[#aec6ff]">
-              BEST QUALITY PLATFORM
-            </p>
-            <p className="text-gray-400">
-              © 2025 Panalobet Copyrights.
-              <br />
-              All Rights Reserved
-            </p>
-          </div>
+    <footer className="bg-[linear-gradient(135deg,#1F2460_0%,#252B73_100%)] text-white px-6 md:px-16 py-10 text-sm">
+      <div className="max-w-[1350px] mx-auto">
+        <div className="w-full">
+          <div className="flex flex-col w-full md:flex-row justify-between gap-8 mb-6 lg:gap-10">
+            <div className="space-y-2">
+              <Image
+                src="/img/PANALOBET-LOGO.webp"
+                alt="Panalobet Logo"
+                width={160}
+                height={40}
+              />
+              <p className="font-semibold text-[#aec6ff]">
+                BEST QUALITY PLATFORM
+              </p>
+              <p className="text-gray-400">
+                © 2025 Panalobet Copyrights.
+                <br />
+                All Rights Reserved
+              </p>
+            </div>
 
-          {/* Partners Section */}
-          <div className="flex-1">
-            <p className="font-semibold text-sm text-gray-300 mb-2">PARTNERS</p>
-            <div className="flex flex-wrap gap-4">
-              {partners.map((src, i) => (
-                <Image
-                  key={i}
-                  src={src}
-                  alt={`Partner ${i}`}
-                  width={32}
-                  height={32}
-                />
-              ))}
+            <div className="flex-2">
+              <p className="font-semibold text-sm text-gray-300 mb-2">
+                PARTNERS
+              </p>
+              <div className="flex flex-wrap gap-4">
+                {partners.map((src, i) => (
+                  <Image
+                    key={i}
+                    src={src}
+                    alt={`Partner ${i}`}
+                    width={45}
+                    height={45}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
-        <hr className="border-gray-600 my-6" />
+        <hr className="border-[#DEDEDE] my-6" />
 
-        {/* Bottom Links */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-xs text-gray-300">
           <div className="flex flex-wrap gap-4">
             <span>WHAT’S NEW</span>
@@ -84,8 +85,8 @@ const Footer = () => {
             <Image
               src="/img/footer/pay130.png"
               alt="Payment"
-              width={24}
-              height={24}
+              width={30}
+              height={30}
             />
           </div>
 
@@ -95,20 +96,20 @@ const Footer = () => {
               <Image
                 src="/img/footer/telegram-channel.png"
                 alt="Telegram"
-                width={20}
-                height={20}
+                width={30}
+                height={30}
               />
               <Image
                 src="/img/footer/facebook.png"
                 alt="Facebook"
-                width={20}
-                height={20}
+                width={30}
+                height={30}
               />
               <Image
                 src="/img/footer/instagram.png"
                 alt="Instagram"
-                width={20}
-                height={20}
+                width={30}
+                height={30}
               />
             </div>
 
@@ -117,15 +118,15 @@ const Footer = () => {
               <Image
                 src="/img/footer/gamcare.png"
                 alt="Aware"
-                width={20}
-                height={20}
+                width={30}
+                height={30}
               />
-              <Image src="/icons/18plus.png" alt="18+" width={20} height={20} />
+              <Image src="/icons/18plus.png" alt="18+" width={30} height={30} />
               <Image
                 src="/img/footer/age-limit-21.png"
                 alt="Responsible"
-                width={20}
-                height={20}
+                width={30}
+                height={30}
               />
             </div>
           </div>

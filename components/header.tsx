@@ -66,21 +66,22 @@ export default function Header() {
         }`}
       >
         <div className="w-full max-w-[1230px] mx-auto text-white">
-          <div className="flex justify-between items-center p-2 md:py-2 md:px-[22px]">
+          <div className="flex justify-between items-center p-2 md:py-4 md:px-[22px]">
             <div className="hidden md:ml-auto md:flex gap-4">
               <Link
                 href="#"
-                className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
-                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#f60015_0%,#991111_50%,#f60015_100%)] duration-300
+                className="bg-transparent px-4 py-2 rounded-full text-center
+                            transition-transform transform hover:scale-105
+                            border border-white
                             md:w-[150px]
                             "
               >
-                REGISTER
+                SIGNUP
               </Link>
               <Link
                 href="#"
-                className="bg-[linear-gradient(135deg,#1f2460_0%,#005fbe_50%,#1f2460_100%)] px-4 py-2 rounded shadow-md text-center
-                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#005fbe_0%,#1f2460_50%,#005fbe_100%)] duration-300
+                className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)] px-4 py-2 rounded-full shadow-md text-center
+                            transition-transform transform hover:scale-105 duration-300
                             md:w-[150px]
                             "
               >
@@ -97,7 +98,7 @@ export default function Header() {
         </div>
       </motion.div>
 
-      <div className="w-full max-w-[1350px] mx-auto text-white py-2 lg:py-4 flex justify-between items-center">
+      <div className="w-full max-w-[1350px] mx-auto text-white py-2 lg:py-4 flex flex-col md:flex-row justify-between items-center">
         <div>
           <Link href="/">
             <Image
@@ -118,7 +119,7 @@ export default function Header() {
               href="/"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
-              WWAT&apos;S NEW
+              WHAT&apos;S NEW
             </Link>
             <Link
               href="/slots"
@@ -154,18 +155,19 @@ export default function Header() {
           <div className="flex justify-center items-center mt-4 gap-4 mx-auto md:hidden">
             <Link
               href="#"
-              className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
-                            w-[100px]
-                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#f60015_0%,#991111_50%,#f60015_100%)] duration-300
+              className="bg-transparent px-4 py-2 rounded-full text-center
+                            transition-transform transform hover:scale-105
+                            border border-white
+                            md:w-[150px]
                             "
             >
-              REGISTER
+              SIGNUP
             </Link>
             <Link
               href="#"
-              className="bg-[linear-gradient(135deg,#1f2460_0%,#005fbe_50%,#1f2460_100%)] px-4 py-2 rounded shadow-md text-center
-                            w-[100px]
-                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#005fbe_0%,#1f2460_50%,#005fbe_100%)] duration-300
+              className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)] px-4 py-2 rounded-full shadow-md text-center
+                            transition-transform transform hover:scale-105 duration-300
+                            md:w-[150px]
                             "
             >
               LOGIN

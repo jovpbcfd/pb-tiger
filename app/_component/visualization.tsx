@@ -1,6 +1,7 @@
 import Image from "next/image";
 import RankingTable from "./ranking-table";
 import VisualizeChart from "./visualize-chart";
+import Conquer from "./conquer";
 
 export default function Visualization() {
   return (
@@ -26,21 +27,22 @@ export default function Visualization() {
       </section>
       <section className="pb-12 lg:pb-20">
         <div className="p-4">
-          <div className="max-w-[1350px] mx-auto bg-[#252B73] rounded-[23px] py-5 px-6">
-            <h3 className="text-[#FFE207] text-center font-bold mb-2">
+          <div className="max-w-[1350px] mx-auto bg-[#252B73] rounded-[23px] border-2 border-[#5E69E4] py-6 px-6 lg:py-15">
+            <h3 className="text-[#FFE207] text-center font-bold mb-2 lg:text-[48px]/13">
               HOW TO CONQUER THE TIGER RANKING — PLAY SMART, WIN BIG!
             </h3>
-            <p className="text-white mb-5 text-center text-[12px]">
+            <p className="text-white mb-5 text-center text-[12px] lg:text-[24px]">
               Want to break into the Tiger Ranking and claim the crown? Here’s
               how to boost your chances:
             </p>
             <div>
-              <Image
-                src="/img/CONQUER.webp"
-                width={500}
-                height={500}
-                alt="How to ranking"
-              />
+              <Conquer />
+            </div>
+            <div className="w-[80%] mx-auto lg:mt-4">
+              <p className="text-[#FFE207] text-center lg:text-[24px]">
+                The Tiger Ranking isn’t about who bets the most — it’s about who
+                hits the hardest. One spin is all it takes. Are you ready?
+              </p>
             </div>
           </div>
         </div>
