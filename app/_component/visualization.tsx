@@ -28,7 +28,7 @@ export default function Visualization() {
       <section className="pb-12 lg:pb-20">
         <div className="p-4">
           <div className="max-w-[1350px] mx-auto bg-[#252B73] rounded-[23px] border-2 border-[#5E69E4] py-6 px-6 lg:py-15">
-            <h3 className="text-[#FFE207] text-center font-bold mb-2 lg:text-[48px]/13">
+            <h3 className="text-[#FFE207] text-center font-bold mb-2 lg:text-[48px]/13 text-balance lg:mb-8">
               HOW TO CONQUER THE TIGER RANKING — PLAY SMART, WIN BIG!
             </h3>
             <p className="text-white mb-5 text-center text-[12px] lg:text-[24px]">

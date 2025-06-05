@@ -74,6 +74,7 @@ export default function Header() {
                             transition-transform transform hover:scale-105
                             border border-white
                             md:w-[150px]
+                            flex items-center justify-center
                             "
               >
                 SIGNUP
@@ -83,6 +84,7 @@ export default function Header() {
                 className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)] px-4 py-2 rounded-full shadow-md text-center
                             transition-transform transform hover:scale-105 duration-300
                             md:w-[150px]
+                            flex items-center justify-center
                             "
               >
                 LOGIN
@@ -159,6 +161,7 @@ export default function Header() {
                             transition-transform transform hover:scale-105
                             border border-white
                             md:w-[150px]
+                            flex items-center justify-center
                             "
             >
               SIGNUP
@@ -168,6 +171,7 @@ export default function Header() {
               className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)] px-4 py-2 rounded-full shadow-md text-center
                             transition-transform transform hover:scale-105 duration-300
                             md:w-[150px]
+                            flex items-center justify-center
                             "
             >
               LOGIN

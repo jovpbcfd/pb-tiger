@@ -60,7 +60,7 @@ export default function Conquer() {
                 <div className="hidden relative lg:flex lg:flex-col lg:items-center lg:my-auto w-[10%]">
                   <div
                     className={cn(
-                      "z-10 w-10 h-10 flex items-center justify-center border-2 transform rotate-45 transition-all",
+                      "z-10 w-8 h-8 flex items-center justify-center border-2 transform rotate-45 transition-all",
                       activeStep === step.tag
                         ? "bg-[#5E69E4] text-white border-[#5E69E4] font-bold"
                         : "bg-[#5E69E4]/90 text-white/90 border-[#5E69E4]"
