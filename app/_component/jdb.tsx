@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Games from "@/components/games";
 import { data } from "@/data/jdb";
 
@@ -12,14 +13,16 @@ export default function GamesJDB() {
         "
       >
         <div className="max-w-[1350px] mx-auto py-5 px-4 lg:py-20">
-          <div className="mb-2 w-[83px] h-[34px] lg:w-[259px] lg:h-[142px] lg:mb-5">
-            <Image
-              src="/img/hero-provider/logo/JDB.webp"
-              width={259}
-              height={142}
-              alt="PG LOGO"
-            />
-          </div>
+          <Link href="#game-provider">
+            <div className="mb-2 w-[83px] h-[34px] lg:w-[259px] lg:h-[142px] lg:mb-5">
+              <Image
+                src="/img/hero-provider/logo/JDB.webp"
+                width={259}
+                height={142}
+                alt="PG LOGO"
+              />
+            </div>
+          </Link>
           <div>
             <h2 className="font-bold text-[#FFE207] mb-2 lg:mb-5 lg:text-[40px]/10 lg:text-balance">
               JDB GAMING — CLASSIC MEETS ARCADE: INNOVATION AND THRILLS IN EVERY

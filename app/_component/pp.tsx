@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Games from "@/components/games";
 import { data } from "@/data/pp";
 
@@ -12,14 +13,16 @@ export default function GamesPP() {
         "
       >
         <div className="max-w-[1350px] mx-auto py-5 px-4 lg:py-20">
-          <div className="mb-2 w-[83px] h-[34px] lg:w-[367px] lg:h-[176px] lg:mb-5">
-            <Image
-              src="/img/hero-provider/logo/PP.webp"
-              width={367}
-              height={176}
-              alt="PG LOGO"
-            />
-          </div>
+          <Link href="#game-provider">
+            <div className="mb-2 w-[83px] h-[34px] lg:w-[367px] lg:h-[176px] lg:mb-5">
+              <Image
+                src="/img/hero-provider/logo/PP.webp"
+                width={367}
+                height={176}
+                alt="PG LOGO"
+              />
+            </div>
+          </Link>
           <div>
             <h2 className="font-bold text-[#FFE207] mb-2 lg:mb-5 lg:text-[40px]/10 lg:text-balance">
               PRAGMATIC PLAY — WORLD-CLASS SLOTS WITH FAST ACTION AND BIG
