@@ -49,8 +49,8 @@ export default function Conquer() {
                   <div className="w-full h-full text-black rounded-md border-dashed flex items-center justify-center">
                     <Image
                       src={step.path}
-                      width={564}
-                      height={300}
+                      width={400}
+                      height={200}
                       alt={step.title}
                       className="rounded-lg shadow-xl"
                     />
@@ -69,10 +69,10 @@ export default function Conquer() {
                 </div>
 
                 <div className="w-full md:w-[45%] flex flex-col items-start lg:my-auto">
-                  <h3 className="text-md text-white uppercase font-bold text-center md:text-left md:font-[800] md:text-[32px]/10">
+                  <h3 className="text-md text-white uppercase font-bold text-center md:text-left md:font-[800] md:text-[24px]/8">
                     {step.title}
                   </h3>
-                  <p className="text-justify text-black text-pretty text-white md:mt-4 lg:text-[24px]/7">
+                  <p className="text-justify text-black text-pretty text-white md:mt-4 lg:text-[18px]/6">
                     {step.description}
                   </p>
                 </div>

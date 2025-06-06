@@ -42,7 +42,7 @@ export default function Header() {
   }, []);
   return (
     <header
-      className={`bg-[#252B73] ransition-all duration-300 ease-in-out ${
+      className={`bg-[#252B73] transition-all duration-300 ease-in-out ${
         isSticky && "sticky top-0 z-100 shadow-lg"
       }`}
     >
@@ -100,7 +100,7 @@ export default function Header() {
         </div>
       </motion.div>
 
-      <div className="w-full max-w-[1350px] mx-auto text-white py-2 lg:py-4 flex flex-col md:flex-row justify-between items-center">
+      <div className="w-full max-w-[1200px] mx-auto text-white py-2 lg:py-4 flex flex-col md:flex-row justify-between items-center">
         <div>
           <Link href="/">
             <Image

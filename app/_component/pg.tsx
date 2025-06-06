@@ -12,23 +12,26 @@ export default function GamesPG() {
         lg:bg-[url(/img/hero-provider/1920x500_PG_HERO.webp)]
         "
       >
-        <div className="max-w-[1350px] mx-auto py-5 px-4 lg:py-20">
+        <div className="max-w-[1200px] mx-auto py-5 px-4 lg:py-20">
           <Link href="#game-provider">
-            <div className="mb-2 w-[83px] h-[34px] lg:w-[407px] lg:h-[230px] lg:mb-5">
+            <div className="mb-2 w-[83px] h-[34px] lg:w-[207px] lg:h-[90px] lg:mb-8">
               <Image
                 src="/img/hero-provider/logo/PG.webp"
-                width={407}
-                height={230}
+                width={207}
+                height={90}
                 alt="PG LOGO"
               />
             </div>
           </Link>
           <div>
-            <h2 className="font-bold text-[#FFE207] mb-2 lg:mb-5 lg:text-[40px]/10 lg:text-balance">
+            <h2
+              className="font-bold text-[#FFE207] mb-2 lg:mb-5 
+            lg:text-[24px]/7 lg:text-balance lg:w-[50%]"
+            >
               PG SOFT — PREMIUM GRAPHICS, ENGAGING MECHANICS,AND MOBILE-FRIENDLY
               PERFECTION!
             </h2>
-            <p className="text-white text-balance leading-5 lg:text-[24px]/8 lg:w-[91%]">
+            <p className="text-white text-balance leading-5 lg:text-[18px]/6 lg:w-[60%]">
               PG Soft is famous for its high-quality visuals, creative game
               logic, and seamless mobile experience. Their games appeal to young
               and stylish players who appreciate aesthetics and features in
@@ -39,7 +42,7 @@ export default function GamesPG() {
       </section>
 
       <section className="bg-[url(/img/hero-provider/LAST_BG.webp)] bg-no-repeat bg-cover">
-        <div className="max-w-[1350px] mx-auto py-5 px-4">
+        <div className="max-w-[1200px] mx-auto py-5 px-4">
           <Games data={data} />
         </div>
       </section>

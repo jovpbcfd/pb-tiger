@@ -13,7 +13,7 @@ export default function Games({ data }: { data: GamesType[] }) {
             <Image src={item.img} height={300} width={300} alt={item.title} />
           </div>
           <div>
-            <h3 className="text-[#FFE207] text-center mb-2 font-bold text-3xl text-uppercase lg:text-left lg:text-[38px]">
+            <h3 className="text-[#FFE207] text-center mb-2 font-bold text-3xl text-uppercase lg:text-left lg:text-[30px]">
               {item.title}
             </h3>
             <p className="text-white mb-3 text-center text-justify">

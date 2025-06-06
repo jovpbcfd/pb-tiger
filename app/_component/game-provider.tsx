@@ -6,7 +6,7 @@ export default function GamesProvider() {
       id="game-provider"
       className="bg-[url(/img/provider/PROVIDER_BG.webp)] bg-cover bg-center py-12 lg:py-20"
     >
-      <div className="max-w-[1350px] mx-auto flex flex-wrap justify-center gap-4">
+      <div className="max-w-[1200px] mx-auto flex flex-wrap justify-center gap-4">
         {[
           { href: "#jili-games", src: "JILI" },
           { href: "#pg-games", src: "PG" },
