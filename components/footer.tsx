@@ -1,6 +1,7 @@
 // components/Footer.tsx
 
 import Image from "next/image";
+import Link from "next/link";
 
 const partners = [
   "/img/footer/provider-awcmfc-1.png",
@@ -30,12 +31,15 @@ const Footer = () => {
         <div className="w-full">
           <div className="flex flex-col w-full md:flex-row justify-between gap-8 mb-6 lg:gap-10">
             <div className="space-y-2">
-              <Image
-                src="/img/PANALOBET-LOGO.webp"
-                alt="Panalobet Logo"
-                width={160}
-                height={40}
-              />
+              <Link href="/">
+                <Image
+                  src="/img/PANALOBET-LOGO.webp"
+                  alt="Panalobet Logo"
+                  width={160}
+                  height={40}
+                  className="mb-2 lg:mb-3"
+                />
+              </Link>
               <p className="font-semibold text-[#aec6ff]">
                 BEST QUALITY PLATFORM
               </p>

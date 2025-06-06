@@ -78,7 +78,7 @@ export default function Header() {
               </Link>
             </div>
             <div className="hidden md:ml-auto md:flex gap-4">
-              <Link
+              {/* <Link
                 href="#"
                 className="bg-transparent px-4 py-2 rounded-full text-center
                             transition-transform transform hover:scale-105
@@ -88,9 +88,9 @@ export default function Header() {
                             "
               >
                 SIGNUP
-              </Link>
+              </Link> */}
               <Link
-                href="#"
+                href="https://panalobet200.com/ph/tl"
                 className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)] px-4 py-2 rounded-full shadow-md text-center
                             transition-transform transform hover:scale-105 duration-300
                             md:w-[150px]
@@ -121,7 +121,7 @@ export default function Header() {
   `}
       >
         <div className="flex flex-col justify-center items-center mt-4 gap-4 pb-5 mx-auto md:hidden px-2">
-          <Link
+          {/* <Link
             href="#"
             className="bg-transparent w-full py-3 lg:px-4 rounded-full text-center
         transition-transform transform hover:scale-105
@@ -130,7 +130,7 @@ export default function Header() {
         flex items-center justify-center"
           >
             SIGNUP
-          </Link>
+          </Link> */}
           <Link
             href="#"
             className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)]
