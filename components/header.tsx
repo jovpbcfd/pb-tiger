@@ -66,7 +66,17 @@ export default function Header() {
         }`}
       >
         <div className="w-full max-w-[1230px] mx-auto text-white">
-          <div className="flex justify-between items-center p-2 md:py-4 md:px-[22px]">
+          <div className="flex justify-between items-center px-2 py-4 md:py-4 md:px-[22px]">
+            <div>
+              <Link href="/">
+                <Image
+                  src="/img/PANALOBET-LOGO.webp"
+                  alt="PANALOBET"
+                  width={200}
+                  height={40}
+                />
+              </Link>
+            </div>
             <div className="hidden md:ml-auto md:flex gap-4">
               <Link
                 href="#"
@@ -100,7 +110,72 @@ export default function Header() {
         </div>
       </motion.div>
 
-      <div className="w-full max-w-[1200px] mx-auto text-white py-2 lg:py-4 flex flex-col md:flex-row justify-between items-center">
+      <div
+        className={`
+    text-white transition-all duration-500 ease-in-out overflow-hidden
+    ${
+      mobileMenuOpen
+        ? "max-h-[500px] opacity-100 translate-y-0"
+        : "max-h-0 opacity-0 -translate-y-4"
+    }
+  `}
+      >
+        <div className="flex flex-col justify-center items-center mt-4 gap-4 pb-5 mx-auto md:hidden px-2">
+          <Link
+            href="#"
+            className="bg-transparent w-full py-3 lg:px-4 rounded-full text-center
+        transition-transform transform hover:scale-105
+        border border-white
+        md:w-[150px]
+        flex items-center justify-center"
+          >
+            SIGNUP
+          </Link>
+          <Link
+            href="#"
+            className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)]
+        w-full
+         py-3 rounded-full shadow-md text-center lg:px-4
+        transition-transform transform hover:scale-105 duration-300
+        md:w-[150px]
+        flex items-center justify-center"
+          >
+            LOGIN
+          </Link>
+        </div>
+      </div>
+
+      {/* {mobileMenuOpen && (
+        <div className="text-white">
+          <div className="flex flex-col justify-center items-center mt-4 gap-4 pb-5 mx-auto md:hidden px-2">
+            <Link
+              href="#"
+              className="bg-transparent w-full px-4 py-2 rounded-full text-center
+                            transition-transform transform hover:scale-105
+                            border border-white
+                            md:w-[150px]
+                            flex items-center justify-center
+                            "
+            >
+              SIGNUP
+            </Link>
+            <Link
+              href="#"
+              className="bg-[linear-gradient(135deg,#8EE4FF_0%,#3495FF_100%)]
+              w-full
+              px-4 py-2 rounded-full shadow-md text-center
+                            transition-transform transform hover:scale-105 duration-300
+                            md:w-[150px]
+                            flex items-center justify-center
+                            "
+            >
+              LOGIN
+            </Link>
+          </div>
+        </div>
+      )} */}
+
+      {/* <div className="w-full max-w-[1200px] mx-auto text-white py-2 lg:py-4 flex flex-col md:flex-row justify-between items-center">
         <div>
           <Link href="/">
             <Image
@@ -178,7 +253,7 @@ export default function Header() {
             </Link>
           </div>
         </nav>
-      </div>
+      </div> */}
     </header>
   );
 }
