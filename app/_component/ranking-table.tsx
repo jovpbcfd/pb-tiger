@@ -4,12 +4,12 @@ import { data } from "@/data/ranking";
 export default function RankingTable() {
   return (
     <div
-      className="overflow-x-auto p-1 h-full rounded-lg lg:p-3 lg:mb-10
+      className="overflow-x-auto p-1 rounded-lg lg:p-3 lg:pb-10
       [background-image:linear-gradient(to_right,#D8A42E_0%,#9A490E_50%,#F7D341_75%,#FFF4C8_88%,#FFCE4B_94%,#F9B34F_97%,#D58C22_100%)]
     "
     >
       <table
-        className="min-w-full border-collapse [background-image:linear-gradient(to_bottom,#1F2460_0%,#2D3492_50%,#1F2460_100%)] text-white rounded-lg shadow-lg
+        className="min-w-full lg:min-h-[450px] border-collapse [background-image:linear-gradient(to_bottom,#1F2460_0%,#2D3492_50%,#1F2460_100%)] text-white rounded-lg shadow-lg
       "
       >
         <thead>
