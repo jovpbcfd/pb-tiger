@@ -29,9 +29,9 @@ export default function Conquer() {
   }, []);
 
   return (
-    <section className="max-w-6xl mx-auto text-white p-2 md:p-0 lg:sections-gutter-y">
+    <section className="max-w-6xl mx-auto text-white md:p-0 lg:sections-gutter-y">
       <div className="md:mt-5">
-        <div className="relative w-full p-2 md:p-6 md:mt-4">
+        <div className="relative w-full p-0 md:p-6 md:mt-4">
           <div className="relative flex flex-col w-full">
             <div className="hidden absolute top-0 bottom-0 left-[50%] w-[2px] bg-[#5E69E4] lg:flex"></div>
             {data.map((step) => (
