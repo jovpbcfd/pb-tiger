@@ -27,7 +27,7 @@ const partners = [
 const Footer = () => {
   return (
     <footer className="bg-[linear-gradient(135deg,#1F2460_0%,#252B73_100%)] text-white px-6 md:px-16 py-10 text-sm">
-      <div className="max-w-[1350px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="w-full">
           <div className="flex flex-col w-full md:flex-row justify-between gap-8 mb-6 lg:gap-10">
             <div className="space-y-2">
