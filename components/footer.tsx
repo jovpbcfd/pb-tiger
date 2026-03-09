@@ -44,7 +44,7 @@ const Footer = () => {
                 BEST QUALITY PLATFORM
               </p>
               <p className="text-gray-400">
-                © 2025 Panalobet Copyrights.
+                © 2026 Panalobet Copyrights.
                 <br />
                 All Rights Reserved
               </p>
